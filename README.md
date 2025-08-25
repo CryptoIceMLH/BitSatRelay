@@ -1,4 +1,4 @@
-As the bitchat dev is progressing at a rapid pace i have to reatart the attempmagain with a very different set of specs. 
+As the bitchat dev is progressing at a rapid pace i have to restart the code with a very different set of specs. 
 
 
 
