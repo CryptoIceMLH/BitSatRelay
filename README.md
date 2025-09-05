@@ -6,6 +6,9 @@ This R&D project uses QO-100 amateur satellite as a development testbed to valid
 
 Building a satellite communication bridge that supports **Bitcoin** and **Nostr** protocols, designed as a complementary service to **Blockstream's satellite node infrastructure**. This creates redundant, censorship-resistant communication channels for the Bitcoin ecosystem via multiple satellite providers and protocols.
 
+UPDATE: with first working release 5/9/2025
+
+
 ## Overview
 
 I'm building a bridge system that connects **Nostr** (a decentralized social protocol) with satellite communications for off-grid messaging. Currently using the **QO-100 amateur radio satellite** as a proof-of-concept testbed to validate the technical approach and demonstrate feasibility.
