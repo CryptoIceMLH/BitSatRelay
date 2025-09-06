@@ -1,4 +1,4 @@
-# BitChat-QO100 Satellite Bridge Project
+# Nostr-QO100 Satellite Bridge Project
 
 This R&D project uses QO-100 amateur satellite as a development testbed to validate Bitcoin and Nostr satellite bridge concepts. The goal is to create complementary infrastructure to Blockstream's satellite services, providing network diversity and resilience for the Bitcoin ecosystem.
 
