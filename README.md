@@ -6,6 +6,20 @@ BitSatRelay bridges the internet-connected Nostr protocol with satellite communi
 
 ---
 
+## 🔗 Related Repositories - Integrated System
+
+This is part of a three-component integrated system. Each repository handles a different part of the BitSatRelay network:
+
+| Repository | Purpose | Description |
+|------------|---------|-------------|
+| **[BitSatRelay](https://github.com/CryptoIceMLH/BitSatRelay)** | Terminal-HQ Bridge | Main codebase - Nostr to satellite bridge (this repo) |
+| **[BitSatRelay-Ground-Station](https://github.com/CryptoIceMLH/BitSatRelay-Ground-Station)** | Off-Grid Terminals | Terminal-1 kits for off-grid satellite TX/RX |
+| **[lnbits-bitsatcredit](https://github.com/CryptoIceMLH/lnbits-bitsatcredit)** | Payment System | LNbits extension for Lightning micropayments |
+
+**All three components work together** to create the complete BitSatRelay network.
+
+---
+
 ## 💜 Support This Project
 
 If you wish to support my work you can donate with BTC:
