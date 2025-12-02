@@ -1,0 +1,40 @@
+# Sensitive configuration
+relay_config.json
+*.key
+*.pem
+*_nsec.txt
+*_private*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+env/
+.env
+*.egg
+
+# Oscar data files
+oscar_data/
+RXimages/
+*.txt
+
+# Logs
+*.log
+logs/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local testing
+test_data/
+scratch/

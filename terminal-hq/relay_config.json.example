@@ -1,0 +1,47 @@
+{
+  "bitsatcredit_extension": {
+    "url": "https://your-lnbits-instance.com/bitsatcredit"
+  },
+  "nostr": {
+    "bot_nsec": "nsec1YOUR_PRIVATE_KEY_HERE_KEEP_THIS_SECRET",
+    "bot_npub": "npub1YOUR_PUBLIC_KEY_HERE",
+    "relay_urls": [
+      "wss://relay.damus.io",
+      "wss://nos.lol",
+      "wss://relay.nostr.band",
+      "wss://relay.primal.net"
+    ],
+    "monitor_relay": "ws://localhost:7777"
+  },
+  "hsmodem": {
+    "host": "192.168.1.112",
+    "port": 40132
+  },
+  "pricing": {
+    "price_per_message_sats": 1,
+    "min_topup_amount_sats": 10
+  },
+  "rate_limiting": {
+    "min_message_interval_seconds": 5.0
+  },
+  "satellite_monitor": {
+    "oscar_data_path": "/run/user/1000/gvfs/smb-share:server=192.168.1.112,share=oscardata/RXimages/",
+    "processed_archive_path": "/run/user/1000/gvfs/smb-share:server=192.168.1.112,share=oscardata/RXimages/processed/",
+    "file_pattern": "*.txt",
+    "check_interval_seconds": 3,
+    "cleanup_enabled": true,
+    "retention_days": 1,
+    "max_retries": 3,
+    "retry_delay_seconds": 5,
+    "startup_delay_seconds": 5
+  },
+  "dm_notifications": {
+    "enabled": true,
+    "low_balance_threshold_sats": 100,
+    "critical_balance_threshold_sats": 10,
+    "low_balance_message": "🛰️⚠️ BitSatRelay - Low Balance Warning\n\nYour satellite relay credit is running low:\n• Current balance: {balance} sats\n• Messages remaining: ~{messages}\n\nTo continue sending Nostr messages via satellite, top up your account.\n\n💬 Reply to me with: /topup 5000\n(Replace 5000 with your desired amount in sats)\n\nCommands: /help /balance",
+    "critical_balance_message": "🛰️🚨 BitSatRelay - CRITICAL BALANCE\n\nYour satellite relay service will stop soon!\n• Balance remaining: {balance} sats\n• Messages left: ~{messages}\n\nYour account needs immediate top-up to keep relaying Nostr messages through the satellite network.\n\n💬 Reply to me with: /topup 10000\n(Replace 10000 with your desired amount in sats)\n\nCommands: /help /balance",
+    "topup_default_amount_sats": 10000,
+    "sent_notifications": {}
+  }
+}
