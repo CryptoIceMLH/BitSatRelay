@@ -4,6 +4,18 @@
 
 BitSatRelay bridges the internet-connected Nostr protocol with satellite communications, enabling global messaging that works even when the internet doesn't.
 
+---
+
+## 💜 Support This Project
+
+If you wish to support my work you can donate with BTC:
+
+⚡ **BTC Lightning**: `cryptoice@walletofsatoshi.com`
+
+⚡ **BTC Onchain**: `347ePgUhyvztUWVZ4YZBmBLgTn8hxUFNeQ`
+
+---
+
 > **⚠️ WORK IN PROGRESS**
 >
 > This repository contains functional code and initial documentation. Additional setup guides are being prepared:
@@ -324,7 +336,7 @@ Response:
 - **Network**: Stable internet (fiber/cellular)
 - **Python**: 3.8+
 
-### Required Hardware
+### Required Hardware WIP
 - **Satellite modem**: HSModem or compatible
 - **Uplink**: 2.4 GHz transmitter (13cm amateur band)
 - **Downlink**: 10.489 GHz receiver (Ku band)
@@ -521,53 +533,15 @@ Runs three parallel async tasks:
 6. Join Nostr for community support
 
 ### Contact
-- **Nostr**: `npub14uee3fwxjwq7m25gsyqguv2t6v8ft69jax4lvs3skfpa8u7thdsqpu7gam`
-- **GitHub**: https://github.com/CryptoIceMLH/BitSatRelay
-- **Website**: https://bitsat.molonlabe.holdings
+- **Nostr**: `npub18cel6ufy7960c5632xfhlpccvdxankzkzs75ema45yxa4uhkzhqqsrulqe`
+- **GitHub**: https://github.com/CryptoIceMLH
+- **Website**: https://www.molonlabe.holdings/
 
 ---
 
-## Acknowledgments
 
-**Built on the shoulders of giants:**
-- Nostr Protocol (fiatjaf and contributors)
-- LNbits (Ben Arc and team)
-- Bitcoin Lightning Network
-- Open source satellite software community
 
-**Technology Stack:**
-- Python for orchestration
-- Nostr protocol for messaging
-- Lightning Network for payments
-- Satellite technology for off-grid comms
-
----
-
-## FAQ
-
-**Q: Do I need to pay to receive messages?**
-A: No! Receiving is always free. You only pay to send (1 sat per message).
-
-**Q: Can anyone see my messages?**
-A: Yes, Nostr is a public protocol. DMs are encrypted, but regular posts are public. Don't share sensitive info in public posts.
-
-**Q: What if I run out of credits?**
-A: You can still receive messages. To send, top up via the DM bot (`/topup 1000`).
-
-**Q: How do I get satellite hardware?**
-A: Contact us for hardware recommendations. Terminal-1 kits will be available soon.
-
-**Q: Is this legal?**
-A: Yes. Satellite communications are legal in most countries. Check local regulations for transmit licenses.
-
-**Q: What if the internet goes down?**
-A: Terminal-1 users can still communicate via satellite. Terminal-HQ needs internet to bridge to Nostr, but can queue messages until connectivity returns.
-
-**Q: Can governments block this?**
-A: Satellite signals can't be blocked easily. Geographic distribution of Terminal-HQs ensures no single government can shut down the network.
-
-**Q: How is this different from Starlink?**
-A: Starlink provides internet via satellite. BitSatRelay provides **messaging** via satellite, even when internet doesn't exist. We use different satellite technology optimized for low-bandwidth data.
+-
 
 ---
 
